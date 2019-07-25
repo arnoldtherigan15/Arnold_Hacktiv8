@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: raleway;
+    box-sizing: border-box;
+}
+.navbar {
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    height: 50px;
+    /* justify-content: center; */
+    align-items: center;
+}
+.nav-brand {
+    margin: 0 20px;
+    text-align: left;
+    width: 25%;
+}
+.nav-brand img{
+    width: 40%;
+}
+.nav-menu {
+    margin: 0 20px;
+    text-align: center;
+    width: 50%;
+}
+.nav-icon {
+    margin: 0 20px;
+    width: 25%;
+    text-align: right;
+}
+.nav-icon a {
+    color: #fff;
+    text-decoration: none;
+}
+.nav-icon i {
+    font-size: 30px;
+}
+.nav-menu li {
+    display: inline-block;
+    margin: 0 10px;
+    font-weight: bold;
+}
+.nav-menu a{
+    color: #fff;
+    text-decoration: none;
+}
+.nav-menu li:hover {
+    background-color: #fff;
+    color: #000;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+/* HOME */
+#home {
+    background-color: #000;
+    height: 600px;
+}
+.home-banner {
+    display: flex;
+}
+.banner1 {
+    background-color: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+    height: 300px;
+    position: absolute;
+    top: 185px;
+    left: 100px;
+    z-index: 1;
+    padding: 30px;
+}
+.banner1 h1 {
+    width: 500px;
+    font-size: 45px;
+    font-weight: bold;
+    margin-top: 40px;
+    padding-top: 20px;
+}
+
+.banner1 p {
+    width: 500px;
+    font-size: 25px;
+    margin-top: 20px;
+}
+.banner2 img {
+    width: 60%;
+    align-items: flex-end;
+    position: relative;
+    float: right;
+    margin-top: 20px;
+}
