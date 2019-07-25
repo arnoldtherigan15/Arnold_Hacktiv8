@@ -1,3 +1,6 @@
 this is line 1
 this is line 2
-1 plus 2 is three
+halo
+this is line 4
+this is 5
+tambah 6
