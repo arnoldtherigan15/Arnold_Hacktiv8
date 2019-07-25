@@ -92,6 +92,14 @@
     float: right;
     margin-top: 20px;
 }
+.banner2 img:hover {
+    width: 60%;
+    align-items: flex-end;
+    position: relative;
+    float: right;
+    margin-top: 20px;
+    filter: grayscale(1);
+}
 /* HOME-HELLO */
 #home-hello {
     background-color: #000;
@@ -130,6 +138,13 @@
     align-items: flex-end;
     float: left;
     margin-top: 20px;
+}
+.banner2-hello img:hover {
+    width: 60%;
+    align-items: flex-end;
+    float: left;
+    margin-top: 20px;
+    filter: grayscale(1);
 }
 /* HOME-QUOTE */
 #home-quote {
@@ -170,4 +185,10 @@
     width: 60%;
     display: block;
     margin: 100px auto;
+}
+.banner2-quote img:hover {
+    width: 60%;
+    display: block;
+    margin: 100px auto;
+    filter: grayscale(1);
 }
