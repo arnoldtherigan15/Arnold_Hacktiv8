@@ -57,7 +57,28 @@ html {
     border-radius: 5px;
     padding: 2px;
 }
-
+@media (max-width: 575.98px) { 
+    .nav-brand {
+        display: none;
+    }
+    .nav-menu {
+        margin : 0;
+        width: 100%;
+        border-top: 0;
+        border-left: 0;
+        border-right: 0;
+        border-bottom: 2px;
+        border-style: dashed;
+        border-color: #fff;
+    }
+    .nav-menu li {
+        margin-bottom: 8px;
+    }
+    .nav-icon {
+        display: none;
+    }
+    
+ }
 /* HOME */
 #home {
     background-color: #000;
@@ -197,6 +218,142 @@ html {
     margin: 100px auto;
     filter: grayscale(1);
 }
+@media (max-width: 575.98px) {
+    #home {
+        height: 100%;
+    }
+    .banner2 img {
+        width: 95%;
+        margin: 0 auto;
+        float: none;
+        display: block;
+    }
+    .banner2 img:hover {
+        width: 95%;
+        margin: 0 auto;
+        float: none;
+        display: block;
+    }
+    .banner1 {
+        background-color: #fff;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        border-radius: 5px;
+        height: 100px;
+        position: absolute;
+        top: 200px;
+        left: 25px;
+        z-index: 1;
+        padding: 5px;
+        text-align: center;
+    }
+    .banner1 img {
+        height: 20px !important;
+    }
+    .banner1 h1 {
+        width: 250px;
+        font-size: 20px;
+        font-weight: bold;
+        margin: 0;
+        padding: 0;
+        margin-top: 10px;
+    }
+    
+    .banner1 p {
+        width: 250px;
+        font-size: 18px;
+        margin: 0;
+    }
+    .banner2-hello {
+        margin-top: 50px;
+    }
+    .banner2-hello img {
+        width: 95%;
+        margin: 0 auto;
+        float: none;
+        display: block;
+    }
+    .banner2-hello img:hover {
+        width: 95%;
+        margin: 0 auto;
+        float: none;
+        display: block;
+    }
+    .banner1-hello {
+        background-color: #fff;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        border-radius: 5px;
+        height: 100px;
+        position: absolute;
+        top: 150px;
+        left: 70px;
+        z-index: 1;
+        padding: 5px;
+        text-align: center;
+    }
+    .banner1-hello h1 {
+        width: 250px;
+        font-size: 20px;
+        font-weight: bold;
+        margin: 0;
+        padding: 0;
+        margin-top: 10px;
+    }
+    .banner1-hello p {
+        width: 250px;
+        font-size: 18px;
+        margin: 0;
+    }
+    #home-hello {
+        height: 100%;
+    }
+    /*  */
+    .banner2-quote {
+        margin-top: 50px;
+    }
+    .banner2-quote img {
+        width: 95%;
+        margin: 0 auto;
+        float: none;
+        display: block;
+    }
+    .banner2-quote img:hover {
+        width: 95%;
+        margin: 0 auto;
+        float: none;
+        display: block;
+    }
+    .banner1-quote {
+        background-color: #fff;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        border-radius: 5px;
+        height: 100px;
+        position: absolute;
+        top: 185px;
+        left: 25px;
+        z-index: 1;
+        padding: 5px;
+        text-align: center;
+    }
+    .banner1-quote h1 {
+        width: 300px;
+        font-size: 15px;
+        font-weight: bold;
+        margin: 0;
+        padding: 0;
+        margin-top: 10px;
+    }
+    .banner1-quote p {
+        width: 300px;
+        font-size: 12px;
+        margin: 0;
+    }
+    #home-quote {
+        height: 100%;
+    }
+    .go-up i {
+        margin-top :10px;
+    }
+ }
 /* GO UP BUTTON */
 .go-up {
     background-color: #000;
