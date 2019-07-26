@@ -4,13 +4,18 @@
     font-family: raleway;
     box-sizing: border-box;
 }
+html {
+    scroll-behavior: smooth;
+}
 .navbar {
     background-color: #000;
     color: #fff;
     display: flex;
     height: 50px;
-    /* justify-content: center; */
     align-items: center;
+    position: sticky;
+    top:0;
+    z-index: 2;
 }
 .nav-brand {
     margin: 0 20px;
@@ -191,4 +196,38 @@
     display: block;
     margin: 100px auto;
     filter: grayscale(1);
+}
+/* GO UP BUTTON */
+.go-up {
+    background-color: #000;
+    height: 100px;
+    text-align: center;
+}
+.go-up i {
+    font-size: 50px;
+    transition: 0.2ms;
+}
+.go-up i:hover {
+    transform: scale(1.5);
+}
+/* FOOTER */
+#footer {
+    background-color: #000;
+    height: 95px;
+    text-align: center;
+    border-top: 4px;
+    border-bottom: 0;
+    border-right: 0;
+    border-left: 0;
+    border-style: dashed;
+    border-color: #fff;
+    padding: 5px 0;
+}
+#footer p {
+    font-weight: bold;
+    font-size: 25px;
+}
+#footer i {
+    color: #fff;
+    margin: 10px 5px 0 5px;
 }
