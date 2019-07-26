@@ -210,6 +210,90 @@ html {
 .go-up i:hover {
     transform: scale(1.5);
 }
+/* GALLERY */
+#gallery {
+    background-color: #000;
+    height: 100%;
+    padding: 60px 0 0 60px;
+}
+.gallery-quote h1 {
+    color: #fff;
+    font-family: "Dancing Script";
+    font-size: 45px;
+    font-weight: bold;
+    /* padding: 30px 40px 0 0; */
+}
+.gallery-photo {
+    display: flex;
+    position: relative;
+}
+.gallery1 {
+    margin-right: 30px;
+}
+.gallery1 img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 #fff;
+    margin: 40px 40px 0 0;
+}
+.gallery1 img:hover {
+    filter: grayscale(1);
+}
+.gallery2 img {
+    width: 45%;
+    margin: 50px 40px 0 0;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 #fff;
+    filter: grayscale(1);
+    transition: 2ms;
+}
+.gallery2 img:hover {
+    filter: initial;
+    transform: scale(1.2);
+}
+.gallery3 img {
+    width: 45%;
+    margin: 40px 40px 0 0;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 #fff;
+}
+
+.gallery-quote2 h1 {
+    color: #fff;
+    font-family: "Dancing Script";
+    font-size: 45px;
+    font-weight: bold;
+    position: absolute;
+    top: 60px;
+    left: 860px;
+    width: 400px;
+}
+.gallery-photo2 {
+    display: flex;
+}
+.gallery4 img {
+    width: 80%;
+    float: right;
+    margin-top: 30px;
+    margin-right: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 #fff;
+    transition: 2ms;
+}
+.gallery4 img:hover {
+    filter: grayscale(1);
+    transform: scale(1.1);
+}
+.gallery-quote3 h1 {
+    color: #fff;
+    font-family: "Dancing Script";
+    font-size: 45px;
+    font-weight: bold;
+    width: 600px;
+    margin-right: 0;
+    margin-top: 80px;
+    padding-top: 80px; 
+}
 /* FOOTER */
 #footer {
     background-color: #000;
