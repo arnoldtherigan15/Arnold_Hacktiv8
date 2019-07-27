@@ -538,10 +538,93 @@ html {
         transition: 2ms;
     }
  }
+
+/* CONTACT */
+#contact {
+    background-color: #000;
+    height: 100vh;
+    color: #fff;
+}
+.contact-container {
+    height: 100vh;
+    background-image: url(./images/gallery-5.jpg);
+    background-size: cover;
+}
+.contact-form {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 8% 10%;
+    padding-bottom: 25%;
+    height: 100%;
+}
+.contact-name {
+    text-align: right;
+}
+.contact-name img {
+    width: 25vw;
+    margin: 5vh 0;
+}
+.contact-form-container {
+    display: flex;
+}
+.contact-kolom2 form{
+    display: inline-grid;
+    margin-left: 5vw;
+}
+.contact-kolom1 {
+    width: 50vw;
+}
+.contact-kolom1 h1 {
+    font-size: 5vw;
+    margin-bottom: 5vh;
+}
+.contact-kolom1 h2 {
+    font-size: 2vw;
+}
+.contact-kolom1 p {
+    margin: 2vh 0;
+    font-size: 1.2vw;
+}
+.contact-kolom1 span {
+    font-weight: bold;
+}
+.contact-kolom2 input {
+    opacity: 0.4;
+    margin-bottom: 2vh;
+}
+.contact-kolom2 textarea {
+    opacity: 0.4;
+    border-radius: 5px;
+    margin-bottom: 2vh;
+}
+.contact-kolom2 button {
+    opacity: 0.4;
+    cursor: pointer;
+}
+.contact-kolom2 input:hover {
+    background-color: white;
+    opacity: 0.8;
+}
+.contact-kolom2 textarea:hover {
+    background-color: white;
+    opacity: 0.8;
+}
+
+.contact-kolom2 button:hover {
+    background-color: white;
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+::placeholder {
+    color: black;
+    opacity: 1;
+    padding: 10vh 10vh;
+}
+
 /* FOOTER */
 #footer {
     background-color: #000;
-    height: 95px;
+    height: 20vh;
     text-align: center;
     border-top: 4px;
     border-bottom: 0;
@@ -549,7 +632,7 @@ html {
     border-left: 0;
     border-style: dashed;
     border-color: #fff;
-    padding: 5px 0;
+    padding: 5vh 0;
 }
 #footer p {
     font-weight: bold;
