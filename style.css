@@ -448,7 +448,7 @@ html {
     display: flex;
 }
 .gallery4 img {
-    width: 50vw;
+    width: 40vw;
     margin-top: 50px;
     margin-left: 50px;
     border-radius: 10px;
@@ -465,10 +465,25 @@ html {
     font-family: "Dancing Script";
     font-size: 45px;
     font-weight: bold;
-    width: 40vw;
+    width: 45vw;
+    text-align: justify;
     margin-right: 0;
-    margin-top: 80px;
-    padding-top: 80px; 
+    margin-top: 50px;
+    padding-top: 50px; 
+    padding-bottom: 50px;
+}
+.gallery-quote3 img {
+    width: 50vw;
+    height: 50vh;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 #fff;
+    filter: grayscale(1);
+    transition: 2ms;
+}
+.gallery-quote3 img:hover {
+    filter: initial;
+    transform: scale(1.1);
 }
 @media (max-width: 1200px) { 
     .gallery-photo {
@@ -506,12 +521,21 @@ html {
         flex-wrap: wrap;
     }
     .gallery4 img {
-        margin-left: 50px;
         margin-right: auto;
+        width: 70vw;
     }
     .gallery4 img:hover {
         filter: initial;
         transform: scale(1);
+    }
+    .gallery-quote3 img {
+        width: 85vw;
+        height: 50vh;
+        object-fit: cover;
+        border-radius: 10px;
+        box-shadow: 0 0 10px 0 #fff;
+        filter: grayscale(1);
+        transition: 2ms;
     }
  }
 /* FOOTER */
