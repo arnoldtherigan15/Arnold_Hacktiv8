@@ -3,6 +3,7 @@
     padding: 0;
     font-family: raleway;
     box-sizing: border-box;
+    -webkit-box-sizing: border-box;
 }
 html {
     scroll-behavior: smooth;
@@ -581,6 +582,7 @@ html {
 .contact-kolom2 form{
     display: inline-grid;
     margin-left: 5vw;
+    width: 25vw;
 }
 .contact-kolom1 {
     width: 50vw;
@@ -637,7 +639,11 @@ html {
     color: black;
     opacity: 1;
 }
-
+@media (max-width: 930px) {
+    .contact-kolom2 form{
+        width: auto;
+    }
+ }
 /* FOOTER */
 #footer {
     background-color: #000;
