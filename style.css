@@ -359,6 +359,7 @@ html {
     background-color: #000;
     height: 100px;
     text-align: center;
+    padding-top: 40px;
 }
 .go-up i {
     font-size: 50px;
@@ -371,7 +372,7 @@ html {
 #gallery {
     background-color: #000;
     height: 100%;
-    padding: 60px 0 0 60px;
+    padding: 60px 50px 0 50px;
 }
 .gallery-quote h1 {
     color: #fff;
@@ -382,23 +383,29 @@ html {
 }
 .gallery-photo {
     display: flex;
-    position: relative;
+    height: 100%;
+    /* position: relative; */
 }
 .gallery1 {
     margin-right: 30px;
 }
 .gallery1 img {
     width: 100%;
+    height: 100%;
     border-radius: 10px;
     box-shadow: 0 0 10px 0 #fff;
     margin: 40px 40px 0 0;
-}
-.gallery1 img:hover {
+    object-fit: cover;
     filter: grayscale(1);
 }
+.gallery1 img:hover {
+    filter: initial;
+}
 .gallery2 img {
-    width: 45%;
-    margin: 50px 40px 0 0;
+    width: 100%;
+    padding-right: 30px;
+    object-fit: cover;
+    margin: 50px 0 0 0;
     border-radius: 10px;
     box-shadow: 0 0 10px 0 #fff;
     filter: grayscale(1);
@@ -409,36 +416,40 @@ html {
     transform: scale(1.2);
 }
 .gallery3 img {
-    width: 45%;
-    margin: 40px 40px 0 0;
+    width: 100%;
+    object-fit: cover;
+    margin: 40px 0 0 0;
     border-radius: 10px;
     box-shadow: 0 0 10px 0 #fff;
+    filter: grayscale(1);
 }
-
+.gallery3 img:hover {
+    filter: initial;
+    transform: scale(1.2);
+}
 .gallery-quote2 h1 {
     color: #fff;
     font-family: "Dancing Script";
     font-size: 45px;
     font-weight: bold;
-    position: absolute;
-    top: 60px;
-    left: 860px;
     width: 400px;
+    text-align: justify;
+    margin: 50px 0 0 30px;
 }
 .gallery-photo2 {
     display: flex;
 }
 .gallery4 img {
-    width: 80%;
-    float: right;
-    margin-top: 30px;
-    margin-right: 40px;
+    width: 50vw;
+    margin-top: 50px;
+    margin-left: 50px;
     border-radius: 10px;
     box-shadow: 0 0 10px 0 #fff;
     transition: 2ms;
+    filter: grayscale(1);
 }
 .gallery4 img:hover {
-    filter: grayscale(1);
+    filter: initial;
     transform: scale(1.1);
 }
 .gallery-quote3 h1 {
@@ -446,11 +457,43 @@ html {
     font-family: "Dancing Script";
     font-size: 45px;
     font-weight: bold;
-    width: 600px;
+    width: 40vw;
     margin-right: 0;
     margin-top: 80px;
     padding-top: 80px; 
 }
+@media (max-width: 1200px) { 
+    .gallery-photo {
+        flex-wrap: wrap;
+    }
+    .gallery1 {
+        margin-right: 0;
+    }
+    .gallery1 img {
+        height: 50vh;
+        width: 85vw;
+        margin-bottom: 40px;
+    }
+    .gallery2 img {
+        margin-top: 0;
+    }
+    .gallery-quote2 {
+        display: none;
+    }
+    .gallery-quote3 h1 {
+        margin-top: 40px;
+        padding-top: 0;
+        width: 90vw;
+        text-align: center;
+    }
+    .gallery-photo2 {
+        flex-wrap: wrap;
+    }
+    .gallery4 img {
+        margin-left: 50px;
+        margin-right: auto;
+    }
+ }
 /* FOOTER */
 #footer {
     background-color: #000;
