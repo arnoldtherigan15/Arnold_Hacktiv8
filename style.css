@@ -494,12 +494,24 @@ html {
         width: 90vw;
         text-align: center;
     }
+    .gallery2 img:hover {
+        filter: initial;
+        transform: scale(1);
+    }
+    .gallery3 img:hover {
+        filter: initial;
+        transform: scale(1);
+    }
     .gallery-photo2 {
         flex-wrap: wrap;
     }
     .gallery4 img {
         margin-left: 50px;
         margin-right: auto;
+    }
+    .gallery4 img:hover {
+        filter: initial;
+        transform: scale(1);
     }
  }
 /* FOOTER */
