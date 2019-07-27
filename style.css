@@ -618,7 +618,6 @@ html {
 ::placeholder {
     color: black;
     opacity: 1;
-    padding: 10vh 10vh;
 }
 
 /* FOOTER */
