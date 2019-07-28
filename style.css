@@ -59,6 +59,9 @@ html {
     padding: 2px;
 }
 @media (max-width: 575.98px) { 
+    .navbar {
+        height: 5vh;
+    }
     .nav-brand {
         display: none;
     }
@@ -520,13 +523,13 @@ html {
     .gallery-quote3 h1 {
         margin-top: 40px;
         padding-top: 0;
-        width: 90%;
+        width: 100%;
         text-align: center;
         font-size: 6vw;
     }
     .gallery-quote3 p {
-        width: 90%;
-        font-size: 3vw;
+        width: 100%;
+        font-size: 3.5vw;
         text-align: center;
     }
     .gallery2 img:hover {
@@ -729,6 +732,12 @@ html {
     height: 50%;
     /* margin: 5vh 5px;
     transition: 2ms; */
+}
+.post-date h3 {
+    font-size: 5vw;
+}
+.post-desc h1 {
+    font-size: 8vw;
 }
 }
 /* FOOTER */
