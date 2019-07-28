@@ -611,9 +611,12 @@ html {
     border-radius: 5px;
     margin-bottom: 2vh;
 }
-.contact-kolom2 button {
+.contact-kolom2 a {
     opacity: 0.4;
     cursor: pointer;
+    background-color: #fff;
+    border-radius: 5px;
+    text-align: center;
 }
 .contact-kolom2 a {
     color: #000;
