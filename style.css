@@ -578,7 +578,7 @@ html {
 
 .post-date h3 {
     margin: 2vh 2vw;
-    font-size: 1.2vw;
+    font-size: 80%;
 }
 .post-image img{
     object-fit: cover;
@@ -586,10 +586,10 @@ html {
     height: 35vh;
 }
 .post-desc h1{
-    font-size: 2vw;
+    font-size: 100%;
 }
 .post-desc p {
-    font-size: 2vh;
+    font-size: 100%;
     text-align: justify;
     margin: 10px 10px;
 }
